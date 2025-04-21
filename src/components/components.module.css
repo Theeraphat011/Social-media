@@ -1,0 +1,20 @@
+.linav {
+    @apply hover:bg-gray-100 p-2 px-6 rounded-sm transition-colors duration-200;
+    position: relative;
+}
+
+.linav::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #c6ff81, #6bf65c);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.linav:hover::after {
+  width: 100%;
+  left: 0;
+}

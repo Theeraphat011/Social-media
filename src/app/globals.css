@@ -1,10 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=National+Park&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 body {
-    font-family: 'Inria Sans', sans-serif;
-    font-weight: 300;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #333;
 }
+

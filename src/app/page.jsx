@@ -7,19 +7,20 @@ import SectionTwo from "@/components/SectionTwo";
 import EndSection from "@/components/EndSection";
 import Footer from "@/components/Footer";
 
-
-
 export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <Banner />
-      <Hero />
-      <Other />
-      <Contents />
-      <SectionTwo />
-      <EndSection />
-      <Footer />
-    </>
-  );
+   return (
+      <>
+         <Navbar />
+         <div className="container mx-auto max-w-7xl px-4">
+            <Banner />
+            <Hero />
+            <Other />
+            <Contents />
+            <SectionTwo />
+            <EndSection />
+            <Footer />
+            
+         </div>
+      </>
+   );
 }
