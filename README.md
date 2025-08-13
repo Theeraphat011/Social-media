@@ -1,4 +1,4 @@
-# Digital Marketing Agency Website
+# Digital Marketing Agency Website.
 
 A modern, responsive website for digital marketing agencies built with Next.js and Tailwind CSS. This project features a clean design with animated components, a green-themed color scheme, and comprehensive sections to showcase services, client success stories, and agency expertise.
 
