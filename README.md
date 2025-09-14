@@ -123,10 +123,6 @@ The easiest way to deploy this application is using [Vercel](https://vercel.com/
 |----------|----------|-------------|
 | ![Homepage](public/img/homepage.png) | ![Services](public/img/servicepage.png) | ![Footer](public/img/footerpage.png) |
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
